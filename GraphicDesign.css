@@ -1,0 +1,114 @@
+.topNavMenu
+{
+    font-family: "Courier";
+    text-decoration: none; /*removes the underline from each menu option*/
+    color: white;
+    font-size: 17pt;
+    text-align: center;
+    float: right;
+    padding: 32px 24px;
+    margin-right: 40px; /*pushes off of the right side of the screen*/
+}
+.topNav
+{
+    margin-top: 20px;
+    background-color: #2d504f;
+    width: 100%;
+    height:75pt;
+    position: sticky;
+    overflow: hidden;
+    text-align: right;
+}
+.topLogo
+{
+    width: 20%;
+    position: absolute;
+    left: 80px;
+    margin-top: 2pt;
+}
+.footAlign
+{
+    font-family: Courier;
+    color: black;
+    text-align: center;/*alignment: bottom;*/
+    margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
+    position: sticky;
+}
+.centerText
+{
+    padding: 20px 280px;
+    text-align: center;
+    background-color: #E6E6E6;
+    font-size: 14pt;
+}
+.title
+{
+    font-size: 24pt;
+    font-family: "Arial";
+    color: black;
+}
+.paraStyle
+{
+    font-family: "Arial";
+    text-decoration: none;
+}
+body
+{
+    margin: 0;
+    background-color: dimgray;
+}
+.midNav01
+{
+    background-color: cadetblue;
+    width: 25%;
+    height: 250pt;
+    position: center;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+.midNav02
+{
+    background-color: seagreen;
+    width: 25%;
+    height: 250pt;
+    position: center;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+.midNav03
+{
+    background-color: orange;
+    width: 25%;
+    height: 250pt;
+    position: center;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+.midNav04
+{
+    background-color: #FFF07C;
+    width: 25%;
+    height: 250pt;
+    position: center;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+fieldset
+{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+.e-mailform
+{
+    max-width:400px;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+}

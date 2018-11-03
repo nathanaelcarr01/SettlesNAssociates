@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="GraphicDesign.css">
+  <title>Settle &amp; Associates</title>
+</head>
+<body>
+    <div id="Menu Bar" class="topNav">
+        <img class="topLogo" src="/Users/nathanael/PhpstormProjects/SettlesNAssociates/images/Logo02.png" alt="logo" title="Logo">
+        <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
+        <a class="topNavMenu" href="#">Services</a>
+        <a class="topNavMenu" href="#">Why Us</a>
+        <a class="topNavMenu" href="#">Tools</a>
+        <a class="topNavMenu" href="SettlesHome.html">Home</a>
+    </div>
+    <div id="Welcome" class="centerText">
+        <h1 class="title">Ready talk to us?</h1>
+        <p class="paraStyle">
+          What we need to know is how we can help you fix your problem.
+        </p>
+        <form name="contactform" method="post" action="send_form_email.php" class="e-mailform">
+            <fieldset>
+                <input for="name" placeholder="Your name" name="full_name" maxlength="50" size="30"><br>
+            </fieldset>
+            <fieldset>
+                <input for="email" placeholder="e-mail" name="email" maxlength="80" size="30"><br>
+            </fieldset>
+            <fieldset>
+                <input for="telephone" placeholder="telephone number" name="telephone" maxlength="30" size="30"><br>
+            </fieldset>
+            <fieldset>
+                <textarea for="comments" placeholder="Comment" name="comments" maxlength="2000" cols="100" rows="25"></textarea><br>
+            </fieldset>
+            <input style="text-align: center" type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- Need to work on-->
+    <footer class="footAlign">
+        <a style="text-decoration: none; color: black" href="SettlesHome.html">Home</a> |
+        <a>Services</a> | <a>Why Us</a> |
+        <a style="text-decoration: none; color: black" href="SettlesContact.html">Contact Us</a> |
+        <a style="text-decoration: none; color: black" href="http://sanda.dynip.com:81/"> Employee </a>
+    </footer>
+</body>
+</html>
