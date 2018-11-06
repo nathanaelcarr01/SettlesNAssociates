@@ -19,19 +19,24 @@
         <p class="paraStyle">
           What we need to know is how we can help you fix your problem.
         </p>
-        <form name="contactform" method="post" action="send_form_email.php" class="e-mailform">
+    </div>
+    <div id="inputForm">
+        <form name="contactform" method="post" action="send_form_email.php">
             <fieldset>
                 <input for="name" placeholder="Your name" name="full_name" maxlength="50" size="30"
-                       style="font-size: 12pt; margin-right: 50px"><br>
+                       style="font-size: 12pt;"><br>
             </fieldset>
             <fieldset>
-                <input for="email" placeholder="e-mail" name="email" maxlength="80" size="30"><br>
+                <input for="email" placeholder="e-mail" name="email" maxlength="80" size="30"
+                       style="font-size: 12pt; float: left;"><br>
             </fieldset>
             <fieldset>
-                <input for="telephone" placeholder="telephone number" name="telephone" maxlength="30" size="30"><br>
+                <input for="telephone" placeholder="telephone number" name="telephone" maxlength="30" size="30"
+                       style="font-size: 12pt; float: left;"><br>
             </fieldset>
             <fieldset>
-                <textarea for="comments" placeholder="Comment" name="comments" maxlength="2000" cols="100" rows="25"></textarea><br>
+                <textarea for="comments" placeholder="Comment" name="comments" maxlength="2000" cols="75" rows="25"
+                          style="font-size: 12pt; ;"></textarea><br>
             </fieldset>
             <input style="text-align: center" type="submit" value="Submit">
         </form>
