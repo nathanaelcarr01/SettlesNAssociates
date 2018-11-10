@@ -99,14 +99,13 @@ body
 }
 fieldset
 {
-    border: medium none !important;
+    border: medium none;
     margin: 0 0 10px;
     min-width: 100%;
     padding: 0;
     width: 100%;
 }
-/*.e-mailform
+.e-mailform
 {
-    width:100%;
-    margin:0 auto;
-}*/
+    margin: 0px 375px;
+}
