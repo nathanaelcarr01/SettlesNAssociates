@@ -107,5 +107,16 @@ fieldset
 }
 .e-mailform
 {
-    margin: 0px 375px;
+    margin: 0px 150px;
+}
+
+.vbar
+{
+    width:275px;
+    height: 765px;
+    background-color:dimgray;
+    position:absolute;
+    top:120px;
+    bottom:0;
+    left:100px;
 }
