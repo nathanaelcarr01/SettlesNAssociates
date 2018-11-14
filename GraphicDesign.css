@@ -1,6 +1,7 @@
 .topNavMenu
 {
     font-family: "Courier";
+    font-weight: bold;
     text-decoration: none; /*removes the underline from each menu option*/
     color: white;
     font-size: 17pt;
@@ -22,8 +23,9 @@
 .topLogo
 {
     width: 20%;
-    position: absolute;
-    left: 80px;
+    margin-right: 20%;
+    /*position: absolute;
+    left: 80px;*/
     margin-top: 2pt;
 }
 .footAlign
@@ -60,17 +62,7 @@ body
 .midNav01
 {
     background-color: cadetblue;
-    width: 25%;
-    height: 250pt;
-    position: center;
-    text-align: center;
-    float: left;
-    margin: 0;
-}
-.midNav02
-{
-    background-color: seagreen;
-    width: 25%;
+    width: 33%;
     height: 250pt;
     position: center;
     text-align: center;
@@ -80,7 +72,7 @@ body
 .midNav03
 {
     background-color: orange;
-    width: 25%;
+    width: 34%;
     height: 250pt;
     position: center;
     text-align: center;
@@ -90,9 +82,9 @@ body
 .midNav04
 {
     background-color: #FFF07C;
-    width: 25%;
-    height: 250pt;
-    position: center;
+    width: 33%;
+    height: 250pt;/*
+    position: center; */
     text-align: center;
     float: left;
     margin: 0;
@@ -112,8 +104,13 @@ fieldset
 
 .vbar
 {
+    font-family: "Courier";
+    font-weight: bold;
+    color: white;
+    font-size: 14pt;
+    margin-right: 40px;
     width:275px;
-    height: 765px;
+    height: 100%;
     background-color:dimgray;
     position:absolute;
     top:120px;
