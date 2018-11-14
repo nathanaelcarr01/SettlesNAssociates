@@ -1,96 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="GraphicDesign.css">
-  <title>Settle &amp; Associates</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="GraphicDesign.css">
+    <title>Settle &amp; Associates</title>
 </head>
 <body>
-    <div id="Menu Bar" class="topNav">
-        <img class="topLogo" src="images/Logo02.png" alt="logo" title="Logo">
-        <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
-        <a class="topNavMenu" href="#">Services</a>
-        <a class="topNavMenu" href="#">Why Us</a>
-        <a class="topNavMenu" href="#">Tools</a>
-        <a class="topNavMenu" href="SettlesHome.html">Home</a>
-    </div>
-    <div id="Welcome" class="centerText">
-        <h1 class="title">Welcome to Settle &amp; Associates</h1>
+<div id="Menu Bar" class="topNav">
+    <img class="topLogo" src="images/Logo02.png" alt="logo" title="Logo">
+    <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
+    <a class="topNavMenu" href="#">Services</a>
+    <a class="topNavMenu" href="#">Why Us</a>
+    <a class="topNavMenu" href="#">Tools</a>
+    <a class="topNavMenu" href="SettlesHome.html">Home</a>
+</div>
+<div id="MainSource" class="centerText">
+    <div id="Welcome">
+        <h1 class="title">Ready to get it done the right way?</h1>
         <p class="paraStyle">
-          We have been a leader in providing I.T. solutions
-          and support to small and mid-sized businesses in the Rio Grande
-          Valley, as well as other parts of Texas and Oklahoma, for over 25
-          years. We focus solely on business unique computing, networking and
-          applications needs. We help our clients achieve their business
-          leadership objectives by lowering the cost and maximizing the
-          performance of their systems.
+            What we need to know is how we can help you fix your problem.
         </p>
     </div>
-    <div id="ImageRotation" style="padding-top: 10pt; padding-bottom: 35pt; "> <!-- Need to make padding to fix alignmnet-->
-        <a style="text-decoration: none; color: black;" href="#">
-            <p class="midNav01 paraStyle">
-                <img src="images/black.png" style="width: 25%; padding: 10pt;">
-                <br>Managed IT Services<br><br>
-                Need some info on what we do.<br>
-                We can get you up and running.<br>
-                Just check us out.<br> <br>
-                Learn More
-            </p>
-        </a>
-        <a style="text-decoration: none; color: black;" href="#">
-            <p class="midNav02 paraStyle">
-                <img src="images/cloud.png" style="width: 25%; padding: 10pt;
-                     margin-bottom: 10pt;">
-                <br>Cloud computing<br><br>
-                Need a backup plan for when<br>
-                things go wrong? Don't worry we can <br>
-                help with that.<br><br>
-                Learn More
-            </p>
-        </a>
-        <a style="text-decoration: none; color: black;" href="#">
-            <p class="midNav03 paraStyle">
-                <img src="images/firstaid.png" style="width: 25%; padding: 10pt;">
-                <br>Backup & Recovery<br><br>
-                Your business data changes<br>
-                every minute of every day. What<br>
-                would happen if you lost all your<br>
-                e-mails, proposals, and business<br>
-                data from even one day?<br>
-                Protect your business. <br><br>
-                Learn More
-            </p></a>
-        <a style="text-decoration: none; color: black;" href="#">
-            <p class="midNav04 paraStyle">
-                <img src="images/wrench.png" style="width: 25%; padding: 10pt;">
-                <br>IT Project Services<br><br>
-                IT projects often go unfinished<br>
-                or end up over budget. We make<br>
-                managing an IT project easy. How?<br>
-                Because we can do as much or as<br>
-                little of the planning as you want. <br><br>
-                Learn More
-            </p>
-        </a>
-    </div>
-    <div id="Commitment" class="centerText" style="margin-top: 21%;">
-        <h1 class="title">Our Mission</h1>
-        <p class="paraStyle">
-            To help you manage your technology investments by
-            listening, finding solutions and working with you.
+    <div id="Vertical Bar" class="vbar">
+        <p style="margin-top: 275px; margin-left: 13px; text-align: left;">
+            Business Hours:<br>
+            Monday - Friday<br>
+            8:00 AM - 5:00 PM (CST)<br><br>
+            Physical Address:<br>
+            1313 E Alto Gloor Blvd. Suite C<br>
+            Brownsville, Tx 78526<br><br>
+
+            Phone Number:<br>
+            (956) 831-9080
         </p>
     </div>
-    <div id="Brands" class="centerText">
-        <img src="images/Datto.png" style="width: 40%; padding: 10pt 50pt;">
-        <img src="images/Dell.png" style="width: 25%; padding: 10pt 50pt;">
-        <img src="images/Tech-Data.png" style="width: 50%; padding: 50pt 50pt;">
+    <div id="inputForm" style="background-color: #E6E6E6; padding-top: 0; padding-bottom: 10px;">
+        <form name="contactform" method="post" action="send_form_email.php" class="e-mailform">
+            <fieldset>
+                <input for="name" placeholder="Your name" name="full_name" maxlength="50" size="30"
+                       style="font-size: 12pt; float: left;">
+            </fieldset>
+            <fieldset>
+                <input for="email" placeholder="e-mail" name="email" maxlength="80" size="30"
+                       style="font-size: 12pt; float: left;">
+            </fieldset>
+            <fieldset>
+                <input for="telephone" placeholder="telephone number" name="telephone" maxlength="30" size="30"
+                       style="font-size: 12pt; float: left;">
+            </fieldset>
+            <fieldset>
+                    <textarea for="comments" placeholder="Comment" name="comments" maxlength="2000" cols="75" rows="25"
+                              style="font-size: 12pt; ;"></textarea>
+            </fieldset>
+            <input style="text-align: center; margin-left: auto;" type="submit" value="Submit">
+        </form>
     </div>
-    <!-- Need to work on-->
-    <footer class="footAlign">
-        <a style="text-decoration: none; color: black" href="SettlesHome.html">Home</a> |
-        <a>Services</a> | <a>Why Us</a> |
-        <a style="text-decoration: none; color: black" href="SettlesContact.html">Contact Us</a> |
-        <a style="text-decoration: none; color: black" href="http://sanda.dynip.com:81/"> Employee </a>
-    </footer>
+</div>
+<!-- Need to work on-->
+<footer class="footAlign">
+    <a style="text-decoration: none; color: black" href="SettlesHome.html">Home</a> |
+    <a>Services</a> | <a>Why Us</a> |
+    <a style="text-decoration: none; color: black" href="SettlesContact.html">Contact Us</a> |
+    <a style="text-decoration: none; color: black" href="http://sanda.dynip.com:81/"> Employee </a>
+</footer>
 </body>
 </html>
