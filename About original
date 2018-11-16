@@ -8,3 +8,9 @@ performance of their systems.
 
 Main idea for new website!!!!
 https://www.free-css.com/free-css-templates/page227/studio7
+
+
+    <h1 class="title" style="font-size: 40pt; color: floralwhite;"> Our Services </h1>
+    <p class="paraStyle">
+        Our vast experience offers you a large range of services and quality that can get you where you need to go
+    </p>
