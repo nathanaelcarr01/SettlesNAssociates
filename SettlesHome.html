@@ -5,76 +5,103 @@
     <link rel="stylesheet" href="GraphicDesign.css">
     <title>Settle &amp; Associates</title>
 </head>
+
 <body>
+    <div id="WelcomeScene" class="container">
+        <img src="images/office.jpg" style="width: 100%; /*height: 600px;*/ opacity: .5;">
 
-<div id="Welcome" class="container">
-    <img src="images/GlowingCircuit.png" style="width: 100%; /*height: 600px;*/ opacity: .5;">
-    <div id="Menu Bar" class="topNav">
-        <img class="topLogo" src="images/Logo02.png" alt="logo">
-        <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
-        <a class="topNavMenu" href="#">About</a>
-        <a class="topNavMenu" href="#">Tools</a>
-        <a class="topNavMenu" href="SettlesHome.html">Home</a>
+        <div id="Menu Bar" class="topNav">
+            <img class="topLogo" src="images/Logo02.png" alt="logo">
+            <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
+            <a class="topNavMenu" href="SettlesAbout.html">About</a>
+            <a class="topNavMenu" href="SettlesTools.html">Tools</a>
+            <a class="topNavMenu" href="SettlesHome.html">Home</a>
+        </div>
+
+        <div id="WelcomeText" class="centered">
+            <h1 class="title" style="font-size: 45pt; color: whitesmoke;">
+                Welcome to <br> Settle &amp; Associates
+            </h1>
+            <p class="paraStyle" style="font-size: 25pt; font-weight: bold; color: whitesmoke;">
+                With an IT team that has 30 years of experience,
+                we are a step above the others
+            </p>
+        </div>
+
     </div>
-    <div id="WelcomeText" class="centered">
-        <h1 class="title" style="font-size: 45pt; color: whitesmoke;">Welcome to Settle &amp; Associates</h1>
-        <p class="paraStyle" style="font-size: 25pt; font-weight: bold; color: whitesmoke;">
-            A digital team  that is a step above the others
+    <!-- Need to work on creating new classes to clean up code! -->
+    <div id="ServicesScene" class="paraStyle" style="background: steelblue; height: 525pt;">
+        <div id="Service Description" class="centerText">
+            <h1 class="title" style="font-size: 40pt; color: floralwhite;"> Our Services </h1>
+            <p class="paraStyle" style="font-size: 20pt">
+                Our vast experience offers you a large range of services <br>
+                and quality that can get you where you need to go
+            </p>
+        </div>
+
+        <div id="PC Manage" class="midNav">
+            <p>
+                <img src="images/Circle01.png" style="width: 200px;">
+                <h3> Computer Management</h3>
+
+                From managing, monitoring, optimizing <br>
+                and securing your computers we got <br>
+                your back. We can even help you get <br>
+                what you need to get back to work.
+            </p>
+        </div>
+        <div id="Network" class="midNav">
+            <p>
+                <img src="images/Circle03.png" style="width: 200px;">
+                <h3> Networking </h3>
+
+                Whether you are working from office <br>
+                or home we understand the importance <br>
+                of implementing a secure network is <br>
+                of utmost importance.
+            </p>
+        </div>
+        <div id="Internet" class="midNav">
+            <p>
+                <img src="images/Circle02.png" style="width: 200px;">
+                <h3>Internet</h3>
+
+                We have the tools to help create <br>
+                employee e-mails, set up your <br>
+                wireless internet, and or help <br>
+                manage your web access.
+            </p>
+        </div>
+        <div id="Backup Solution" class="midNav">
+            <p>
+                <img src="images/Circle04.png" style="width: 200px;">
+                <h3>Backup Solutions</h3>
+
+                If you're running a business, <br>
+                losing data can be catastrophic. <br>
+                The business backup solution we <br>
+                have can take that worry off <br>
+                your shoulders.
+            </p>
+        </div>
+    </div>
+
+    <div id="Commitment" class="centerText" style="background-color: #E6E6E6; ">
+        <h1 class="title" style="font-size: 25pt;">Our Mission</h1>
+
+        <p class="paraStyle" style="font-size: 20pt;">
+            To help you manage your technology investments by <br>
+            listening, finding solutions and working with you.
         </p>
     </div>
-</div>
-<div id="Services" class="centerText paraStyle" style="background: steelblue; height: 300pt;">
-    <h1 class="title" style="font-size: 40pt; color: floralwhite;"> Our Services </h1>
-    <p class="paraStyle">
-        Our vast experience offers you a large range of services and quality that can get you where you need to go
-    </p>
-    <!-- This is where we will have a short but sweet list of what we do for our clients -->
-    <div class="midNav">
-        <p>
-            <h3> Computer Management</h3>
 
-            From managing, monitoring, optimizing and securing your computers we got your back.
-            We can even help you get what you need to get back to work.
-        </p>
-    </div>
-    <div class="midNav">
-        <p>
-            <h3> Networking </h3>
-
-            Implementing secure networks is something that is very important.
-            Whether you are working from the office or home we know how to keep your network secure.
-        </p>
-    </div>
-    <div class="midNav">
-        <p>
-            <h3>Internet</h3>
-
-            Creating a new email for an employee, setting up a wireless access, or help manage your web access we have the tools to help.
-        </p>
-    </div>
-    <div class="midNav">
-        <p>
-            <h3>Backup Solutions</h3>
-
-            If you're running a business, losing data can be catastrophic.
-            The business backup solution we have can take that worry off your shoulders.
-        </p>
-    </div>
-</div>
-<div id="Commitment" class="centerText" style="background-color: #E6E6E6; ">
-    <h1 class="title" style="font-size: 24pt;">Our Mission</h1>
-    <p class="paraStyle">
-        To help you manage your technology investments by
-        listening, finding solutions and working with you.
-    </p>
-</div>
-
-<!-- Need to work on-->
-<footer class="footAlign">
-    <a style="text-decoration: none; color: black" href="SettlesHome.html">Home</a> |
-    <a>Services</a> | <a>Why Us</a> |
-    <a style="text-decoration: none; color: black" href="SettlesContact.html">Contact Us</a> |
-    <a style="text-decoration: none; color: black" href="http://sanda.dynip.com:81/"> Employee </a>
-</footer>
+    <!-- Need to work on-->
+    <footer class="footAlign">
+        <a style="text-decoration: none; color: black" href="SettlesHome.html">Home</a> |
+        <a style="text-decoration: none; color: black" href="SettlesTools.html">Tools</a> |
+        <a style="text-decoration: none; color: black" href="SettlesAbout.html">About</a> |
+        <a style="text-decoration: none; color: black" href="SettlesContact.html">Contact Us</a> |
+        <a style="text-decoration: none; color: black" href="http://sanda.dynip.com:81/"> Employee </a>
+    </footer>
 </body>
 </html>
