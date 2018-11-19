@@ -1,4 +1,4 @@
-.topNavMenu /*Menu Bar*/
+.topNavMenu /*Menu text arrangement*/
 {
     font-family: "Courier";
     font-weight: bold;
@@ -8,16 +8,24 @@
     text-align: center;
     float: right;
     padding: 2.5% 2%;
-    margin-right: 2%; /*pushes off of the right side of the screen*/
+    margin-right: 4%; /*pushes off of the right side of the screen*/
 }
-.topNav /*Menu options*/
+.topNav /*Menu Bar arrangement for main page*/
 {
     width: 100%;
-    height:5%;
+    height: 15%;
     top: 5%;
-    right: 8%;
     position: absolute;
     text-align: right;
+}
+.topNav02 /*Menu Bar arrangement for main page*/
+{
+    width: 100%;
+    height:15%;
+    top: 5%;
+    position: absolute;
+    text-align: right;
+    background-color: darkslategray;
 }
 .topLogo
 {
@@ -57,12 +65,11 @@ body
 .midNav
 {
     width: 25%;
-    height: 200pt;
+    height: 150pt;
     position: center;
     text-align: center;
     float: left;
-    margin: 0;
-
+    font-size: 14pt;
 }
 fieldset
 {
