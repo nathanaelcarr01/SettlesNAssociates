@@ -13,15 +13,15 @@
 .topNav /*Menu Bar arrangement for main page*/
 {
     width: 100%;
-    height: 15%;
+    height: 110px;
     top: 5%;
     position: absolute;
     text-align: right;
 }
-.topNav02 /*Menu Bar arrangement for main page*/
+.topNav02 /*Menu Bar arrangement for other pages*/
 {
     width: 100%;
-    height:13%;
+    height: 110px;
     top: 5%;
     position: absolute;
     text-align: right;
@@ -71,16 +71,6 @@ body
     float: left;
     font-size: 14pt;
 }
-.webDownload
-{
-    width: 50%;
-    height: 75pt;
-    position: center;
-    text-align: center;
-    float: left;
-    font-size: 14pt;
-    padding-top: 40px;
-}
 fieldset
 {
     border: medium none;
@@ -120,13 +110,24 @@ fieldset
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.webLocal01
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.webLocal02
+{
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+}
 .articleTitle
 {
     background-color: royalblue;
     width: 1500px;
     height: 50pt;
-    margin-left: 175px;
+    margin-left: 2%;
     /* Font Style */
     font-size: 15pt;
     color: whitesmoke;
