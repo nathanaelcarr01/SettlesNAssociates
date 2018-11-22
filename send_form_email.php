@@ -2,7 +2,7 @@
 if(isset($_POST['email']))
 {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "nc@settle.cc";
+    $email_to = "sa@settle.cc";
     $email_subject = "e-mail from website";
 
     function died($error)
