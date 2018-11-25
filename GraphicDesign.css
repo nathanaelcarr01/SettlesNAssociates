@@ -7,22 +7,20 @@
     font-size: 20pt;
     text-align: center;
     float: right;
-    padding: 2.5% 2%;
-    margin-right: 4%; /*pushes off of the right side of the screen*/
+    margin: 2% 3%;
 }
 .topNav02 /*Menu Bar arrangement for other pages*/
 {
     width: 100%;
-    height: 125px;
+    height: 12%;
     top: 5%;
     position: absolute;
-    text-align: right;
     background-color: darkslategray;
 }
 .topLogo
 {
     width: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
     margin-top: 2pt;
 }
 .footAlign
@@ -37,30 +35,11 @@
 {
     padding: 20px 200px;
     text-align: center;
-    font-size: 14pt;
-}
-.title
-{
-    font-family: "Arial";
 }
 .paraStyle
 {
     font-family: "Arial";
     text-decoration: none;
-}
-body
-{
-    margin: 0;
-    background-color: dimgray;
-}
-.midNav
-{
-    width: 25%;
-    height: 150pt;
-    position: center;
-    text-align: center;
-    float: left;
-    font-size: 14pt;
 }
 fieldset
 {
@@ -135,4 +114,62 @@ fieldset
     color: whitesmoke;
     padding: 10px 15px;
 
+}
+/*===============================================================================*/
+/*Multi page classes*/
+body
+{
+    margin: 0;
+    background-color: dimgray;
+}
+.Weight
+{font-weight: bold;}
+.paraStyle
+{
+    font-family: "Arial";
+    text-decoration: none;
+}
+.midNav
+{
+    width: 25%;
+    height: 25%;
+    position: center;
+    text-align: center;
+    float: left;
+}
+/*About page specific*/
+#AboutUs
+{
+    text-align: center;
+    margin: 0% 16%;
+    font-size: 20pt;
+}
+#WhoWhatWhy
+{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.markTwain
+{
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.aboutPara01
+{
+    margin: 2%  20%; /*top/bottom left/right*/
+    font-size: 30pt;
+}
+.aboutPara02
+{
+    margin: 2% 20% 5%; /*top left/right bottom*/
+    font-size: 16pt;
+}
+.TheTeam
+{
+    text-align: center;
+    margin: 6% 0% 2%;
+    font-size: 30pt;
 }
