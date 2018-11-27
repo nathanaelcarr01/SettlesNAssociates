@@ -7,7 +7,7 @@
     font-size: 20pt;
     text-align: center;
     float: right;
-    margin: 2% 3%;
+    margin: 2.5% 3%;
 }
 .topNav02 /*Menu Bar arrangement for other pages*/
 {
@@ -61,9 +61,8 @@ fieldset
     font-weight: bold;
     color: white;
     font-size: 14pt;
-    margin-right: 40px;
     /*This is the verticle bar*/
-    width: 22%;
+    width: 20%;
     background-color:dimgray;
     position:absolute;
 
@@ -152,10 +151,10 @@ body
 }
 .markTwain
 {
-    width: 30%;
+    width: 20%;
     float: left;
     margin-left: 15%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .aboutPara01
 {
@@ -164,12 +163,12 @@ body
 }
 .aboutPara02
 {
-    margin: 2% 20% 5%; /*top left/right bottom*/
+    margin: 2% 20% 3%; /*top left/right bottom*/
     font-size: 16pt;
 }
 .TheTeam
 {
     text-align: center;
-    margin: 6% 0% 2%;
-    font-size: 30pt;
+    margin: 4% 0% 2%;
+    font-size: 25pt;
 }
