@@ -26,10 +26,15 @@
 .footAlign
 {
     font-family: Courier;
-    color: black;
+    color: white;
     text-align: center;
     margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
     position: sticky;
+}
+.footText
+{
+    text-decoration: none;
+    color: white
 }
 .centerText
 {
@@ -45,13 +50,8 @@ fieldset
 {
     border: medium none;
     margin: 0% 0% 2%;
-    min-width: 100%;
     padding: 0;
-    width: 100%;
-}
-.e-mailform
-{
-    margin: 0px 150px;
+    max-width: 100%;
 }
 
 .vbar
@@ -62,9 +62,13 @@ fieldset
     color: white;
     font-size: 14pt;
     /*This is the verticle bar*/
-    width: 36%;
+    width: 20%;
     background-color:dimgray;
-    position:absolute;
+    text-align: center;
+    height: 920pt;
+    font-size: 14pt;
+    top: 0%;
+    left: 5%;
 
 }
 .container {
