@@ -1,103 +1,10 @@
-.footText
-{
-    text-decoration: none;
-    color: white
-}
-.centerText
-{
-    padding: 20px 200px;
-    text-align: center;
-}
-.paraStyle
-{
-    font-family: "Arial";
-    text-decoration: none;
-}
-fieldset
-{
-    border: medium none;
-    margin: 0% 0% 2%;
-    padding: 0;
-    max-width: 100%;
-}
-
-.vbar
-{
-    /*Text for the Vertical Bar*/
-    font-family: "Courier";
-    font-weight: bold;
-    color: white;
-    font-size: 14pt;
-    /*This is the verticle bar*/
-    width: 20%;
-    background-color:dimgray;
-    text-align: center;
-    height: 920pt;
-    font-size: 14pt;
-    top: 0%;
-    left: 5%;
-
-}
-.container {
-    position: relative;
-    text-align: center;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.webLocal01
-{
-    position: absolute;
-    top: 43%;
-    left: 20%;
-}
-.webLocal02
-{
-    position: absolute;
-    top: 40%;
-    left: 60%;
-}
-.articleTitle
-{
-    background-color: royalblue;
-    width: 80%;
-    height: 50pt;
-    margin-left: 8%;
-    /* Font Style */
-    font-size: 250%;
-    color: whitesmoke;
-    padding: 1% 2% 0%; /*top left/right bottom*/
-}
-.articleInfo
-{
-    background-color: dimgrey;
-    width: 82.45%;
-    height: 50pt;
-    margin-left: 8%;
-    margin-top: -1.5%;
-    /* Font Style */
-    font-size: 15pt;
-    color: whitesmoke;
-    padding: 10px 15px;
-
-}
-/*===============================================================================*/
-/*Multi page classes*/
-body
-{
-    margin: 0;
-    background-color: dimgray;
-}
 .topNavMenu /*Menu text arrangement*/
 {
     font-family: "Courier";
     font-weight: bold;
     text-decoration: none; /*removes the underline from each menu option*/
     color: whitesmoke;
-    font-size: 175%;
+    font-size: 20pt;
     text-align: center;
     float: right;
     margin: 2.5% 3%;
@@ -114,15 +21,105 @@ body
 {
     width: 20%;
     margin-left: 10%;
-    margin-top: 0.25%;
+    margin-top: 2pt;
 }
 .footAlign
 {
     font-family: Courier;
-    color: white;
+    color: black;
     text-align: center;
     margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
     position: sticky;
+}
+.centerText
+{
+    padding: 20px 200px;
+    text-align: center;
+}
+.paraStyle
+{
+    font-family: "Arial";
+    text-decoration: none;
+}
+fieldset
+{
+    border: medium none;
+    margin: 0% 0% 2%;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+.e-mailform
+{
+    margin: 0px 150px;
+}
+
+.vbar
+{
+    /*Text for the Vertical Bar*/
+    font-family: "Courier";
+    font-weight: bold;
+    color: white;
+    font-size: 14pt;
+    /*This is the verticle bar*/
+    width: 36%;
+    background-color:dimgray;
+    position:absolute;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.webLocal01
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.webLocal02
+{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.articleTitle
+{
+    background-color: royalblue;
+    width: 1500px;
+    height: 50pt;
+    margin-left: 2%;
+    /* Font Style */
+    font-size: 15pt;
+    color: whitesmoke;
+    padding: 0 15px;
+
+}
+.articleInfo
+{
+    background-color: dimgrey;
+    width: 1500px;
+    height: 50pt;
+    margin-left: -15px;
+    margin-top: -25px;
+    /* Font Style */
+    font-size: 15pt;
+    color: whitesmoke;
+    padding: 10px 15px;
+
+}
+/*===============================================================================*/
+/*Multi page classes*/
+body
+{
+    margin: 0;
+    background-color: dimgray;
 }
 .Weight
 {font-weight: bold;}
