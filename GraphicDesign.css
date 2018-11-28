@@ -1,36 +1,3 @@
-.topNavMenu /*Menu text arrangement*/
-{
-    font-family: "Courier";
-    font-weight: bold;
-    text-decoration: none; /*removes the underline from each menu option*/
-    color: whitesmoke;
-    font-size: 20pt;
-    text-align: center;
-    float: right;
-    margin: 2.5% 3%;
-}
-.topNav02 /*Menu Bar arrangement for other pages*/
-{
-    width: 100%;
-    height: 12%;
-    top: 5%;
-    position: absolute;
-    background-color: darkslategray;
-}
-.topLogo
-{
-    width: 20%;
-    margin-left: 10%;
-    margin-top: 2pt;
-}
-.footAlign
-{
-    font-family: Courier;
-    color: white;
-    text-align: center;
-    margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
-    position: sticky;
-}
 .footText
 {
     text-decoration: none;
@@ -84,8 +51,8 @@ fieldset
 .webLocal01
 {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 43%;
+    left: 20%;
 }
 .webLocal02
 {
@@ -96,22 +63,21 @@ fieldset
 .articleTitle
 {
     background-color: royalblue;
-    width: 1500px;
+    width: 80%;
     height: 50pt;
-    margin-left: 2%;
+    margin-left: 8%;
     /* Font Style */
-    font-size: 15pt;
+    font-size: 250%;
     color: whitesmoke;
-    padding: 0 15px;
-
+    padding: 1% 2% 0%; /*top left/right bottom*/
 }
 .articleInfo
 {
     background-color: dimgrey;
-    width: 1500px;
+    width: 82.45%;
     height: 50pt;
-    margin-left: -15px;
-    margin-top: -25px;
+    margin-left: 8%;
+    margin-top: -1.5%;
     /* Font Style */
     font-size: 15pt;
     color: whitesmoke;
@@ -124,6 +90,39 @@ body
 {
     margin: 0;
     background-color: dimgray;
+}
+.topNavMenu /*Menu text arrangement*/
+{
+    font-family: "Courier";
+    font-weight: bold;
+    text-decoration: none; /*removes the underline from each menu option*/
+    color: whitesmoke;
+    font-size: 175%;
+    text-align: center;
+    float: right;
+    margin: 2.5% 3%;
+}
+.topNav02 /*Menu Bar arrangement for other pages*/
+{
+    width: 100%;
+    height: 12%;
+    top: 5%;
+    position: absolute;
+    background-color: darkslategray;
+}
+.topLogo
+{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 0.25%;
+}
+.footAlign
+{
+    font-family: Courier;
+    color: white;
+    text-align: center;
+    margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
+    position: sticky;
 }
 .Weight
 {font-weight: bold;}
