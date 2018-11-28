@@ -81,7 +81,7 @@ fieldset
 {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 20%;
 }
 .webLocal02
 {
@@ -92,11 +92,11 @@ fieldset
 .articleTitle
 {
     background-color: royalblue;
-    width: 1500px;
-    height: 50pt;
-    margin-left: 2%;
+    width: 90%;
+    height: 50%;
+    margin-left: 3.5%;
     /* Font Style */
-    font-size: 15pt;
+    font-size: 30pt;
     color: whitesmoke;
     padding: 0 15px;
 
@@ -104,15 +104,27 @@ fieldset
 .articleInfo
 {
     background-color: dimgrey;
-    width: 1500px;
-    height: 50pt;
-    margin-left: -15px;
-    margin-top: -25px;
+    width: 90%;
+    height: 120%;
+    margin-left: 3.5%;
+    margin-top: -1.8%;
     /* Font Style */
     font-size: 15pt;
     color: whitesmoke;
     padding: 10px 15px;
 
+}
+.button
+{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 /*===============================================================================*/
 /*Multi page classes*/
