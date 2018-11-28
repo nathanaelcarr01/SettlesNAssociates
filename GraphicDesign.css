@@ -26,10 +26,15 @@
 .footAlign
 {
     font-family: Courier;
-    color: black;
+    color: white;
     text-align: center;
     margin: 20px; /*gives spacing between the bottom of the page and last <div>*/
     position: sticky;
+}
+.footText
+{
+    text-decoration: none;
+    color: white;
 }
 .centerText
 {
