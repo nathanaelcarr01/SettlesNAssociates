@@ -1,5 +1,6 @@
 Settle & Associates Links:
 
-Server File Access: http://sanda.dynip.com:81/
-Team Viewer Host Connection: http://help.settle.cc/default_files/TeamViewer.exe
+    Server File Access: http://sanda.dynip.com:81/
+
+    Team Viewer Host Connection: http://help.settle.cc/default_files/TeamViewer.exe
 
