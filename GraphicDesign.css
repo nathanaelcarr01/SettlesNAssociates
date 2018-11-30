@@ -4,7 +4,7 @@
     font-weight: bold;
     text-decoration: none; /*removes the underline from each menu option*/
     color: whitesmoke;
-    font-size: 20pt;
+    font-size: 175%;
     text-align: center;
     float: right;
     margin: 2.5% 3%;
@@ -21,7 +21,7 @@
 {
     width: 20%;
     margin-left: 10%;
-    margin-top: 2pt;
+    margin-top: .25%;
 }
 .footAlign
 {
@@ -107,7 +107,7 @@ body
 .webLocal01
 {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 0%;
     width: 50%;
     text-align: center;
@@ -115,7 +115,7 @@ body
 .webLocal02
 {
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 0%;
     width:50%;
     text-align: center;
