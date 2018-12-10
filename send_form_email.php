@@ -2,7 +2,7 @@
 if(isset($_POST['email']))
 {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "sa@settle.cc";
+    $email_to = "nc@settle.cc";
     $email_subject = "e-mail from website";
 
     function died($error)
@@ -67,13 +67,13 @@ if(isset($_POST['email']))
         'Reply-To: '.$email_from."\r\n" .
         'X-Mailer: PHP/' . phpversion();
     mail($email_to, $email_subject, $email_message, $headers);
-    ?>
 
-    <!-- include your own success html here -->
 
-    Thank you for contacting us. We will be in touch with you very soon.
+    #include your own success html here -->
 
-    <?php
+    print "Thank you for contacting us. We will be in touch with you very soon.";
+
+
 
 }
 ?>
