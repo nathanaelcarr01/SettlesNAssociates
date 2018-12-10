@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="GraphicDesign.css">
     <link rel="icon" href="images/curly-braces-md.png" type="image">
     <title>Settle &amp; Associates</title>
 </head>
 <body>
 <div id="Contact Us Page">
-    <img src="images/ContactImage.jpg" style="width: 100%; height: 1200px; opacity: .5;">
+    <img src="images/ContactImage.jpg" style="width: 100%; height: auto; opacity: .5;">
     <div id="Menu Bar" class="topNav02" style="z-index: 2;" >
         <img class="topLogo" src="images/Logo02.png" alt="logo" title="Logo">
         <a class="topNavMenu" href="SettlesContact.html">Contact Us</a>
@@ -36,18 +37,18 @@
         </p>
     </div>
     <div id="inputForm">
-        <form name="contactform" method="post" action="send_form_email.php" autocorrect="off">
+        <form name="contactform" method="post" action="send_form_email.php">
             <fieldset >
                 <input placeholder="Your name" name="full_name" maxlength="50" size="30"
-                       style="font-size: 12pt;">
+                       style="font-size: 12pt;" autocorrect="off">
             </fieldset>
             <fieldset>
                 <input placeholder="e-mail" name="email" maxlength="80" size="30"
-                       style="font-size: 12pt;">
+                       style="font-size: 12pt;" autocorrect="off">
             </fieldset>
             <fieldset>
                 <input placeholder="telephone number" name="telephone" maxlength="30" size="30"
-                       style="font-size: 12pt;">
+                       style="font-size: 12pt;" autocorrect="off">
             </fieldset>
             <fieldset>
                     <textarea placeholder="Comment" name="comments" maxlength="2000" cols="75" rows="25"
